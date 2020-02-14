@@ -6,10 +6,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class IDoSomeServiceImpl implements IDoSomeService {
+    private int count =0;
     @RequestMapping("/doSome")
     @Override
     public String doSome() {
-        System.out.println("service provider");
-        return "eureka arrived web hello world!";
+        count++;
+        return String.format("eureka arrived web hello world!(%d)",count);
     }
 }
