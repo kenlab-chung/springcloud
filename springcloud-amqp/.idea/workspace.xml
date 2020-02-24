@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49f35166-1061-404e-98ae-f4eb9405fa67" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../config-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../config-server/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="springcloud-amqp" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="/opt/apache-maven-3.6.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YEc8u4vUW2aX3qrQw3MD1hq1hk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49f35166-1061-404e-98ae-f4eb9405fa67" name="Default Changelist" comment="" />
+      <created>1582511037758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582511037758</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="523" y="220" width="617" height="545" key="#com.intellij.ide.util.MemberChooser" timestamp="1582514591188">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="523" y="220" width="617" height="545" key="#com.intellij.ide.util.MemberChooser/65.24.1301.744@65.24.1301.744" timestamp="1582514591188" />
+    <state x="204" y="52" width="1013" height="714" key="CommitChangelistDialog2" timestamp="1582525170118">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="204" y="52" width="1013" height="714" key="CommitChangelistDialog2/65.24.1301.744@65.24.1301.744" timestamp="1582525170118" />
+    <state width="1179" height="187" key="GridCell.Tab.0.bottom" timestamp="1582525450159">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1179" height="187" key="GridCell.Tab.0.bottom/65.24.1301.744@65.24.1301.744" timestamp="1582525450159" />
+    <state width="1179" height="187" key="GridCell.Tab.0.center" timestamp="1582525450158">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1179" height="187" key="GridCell.Tab.0.center/65.24.1301.744@65.24.1301.744" timestamp="1582525450158" />
+    <state width="1179" height="187" key="GridCell.Tab.0.left" timestamp="1582525450157">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1179" height="187" key="GridCell.Tab.0.left/65.24.1301.744@65.24.1301.744" timestamp="1582525450157" />
+    <state width="1179" height="187" key="GridCell.Tab.0.right" timestamp="1582525450159">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1179" height="187" key="GridCell.Tab.0.right/65.24.1301.744@65.24.1301.744" timestamp="1582525450159" />
+    <state x="65" y="357" width="449" height="409" key="chooseDestDirectoryDialog" timestamp="1582514721995">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="65" y="357" width="449" height="409" key="chooseDestDirectoryDialog/65.24.1301.744@65.24.1301.744" timestamp="1582514721995" />
+    <state x="75" y="195" width="1291" height="573" key="new project wizard" timestamp="1582527568737">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="75" y="195" width="1291" height="573" key="new project wizard/65.24.1301.744@65.24.1301.744" timestamp="1582527568737" />
+  </component>
+</project>
