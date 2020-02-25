@@ -48,7 +48,6 @@ public class ErrorReceiver {
         while (true)
         {
             Thread.sleep(1000);
-//            System.out.println("while...");
         }
     }
 }
