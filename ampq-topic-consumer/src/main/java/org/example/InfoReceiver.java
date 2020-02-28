@@ -9,13 +9,13 @@ import org.springframework.stereotype.Component;
         bindings = @QueueBinding(
                 value = @Queue(value = "${mq.config.queue.info}",autoDelete = "false"),
                 exchange = @Exchange(value = "${mq.config.exchange}",type = ExchangeTypes.TOPIC),
-                key="*.log.info"
+                key="user.log.info"
         )
 )
 public class InfoReceiver {
         @RabbitHandler
         public  void process(String msg){
-                System.out.println("=======info receiver========");
+                System.out.println("======= user info ========");
                 System.out.println(msg);
         }
         public void start() throws InterruptedException {

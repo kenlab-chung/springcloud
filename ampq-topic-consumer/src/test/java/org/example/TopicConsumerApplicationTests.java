@@ -16,23 +16,40 @@ public class TopicConsumerApplicationTests {
     @Autowired
     private LogsReceiver logsReceiver;
 
+    @Autowired
+    private MultiReceiver multiReceiver;
+
     @Test
     public void Test() throws InterruptedException {
-        Thread info = new Thread(infoRun);
-        info.start();
-
-        Thread log = new Thread(logRun);
-        log.start();
-
-        info.join();
-        log.join();
+        Thread multi = new Thread(multiRun);
+        multi.start();
+//        Thread info = new Thread(infoRun);
+//        info.start();
+//
+//        Thread log = new Thread(logRun);
+//        log.start();
+//
+//        info.join();
+//        log.join();
+        multi.join();
     }
+    private Runnable multiRun = new Runnable() {
+        @Override
+        public void run() {
+            try{
+                multiReceiver.start();
+            }
+            catch (Exception ex)
+            {}
+
+        }
+    };
 
     private Runnable infoRun = new Runnable() {
         @Override
         public void run() {
             try{
-                infoReceiver.start();
+                //infoReceiver.start();
             }
             catch (Exception ex)
             {}
@@ -44,7 +61,7 @@ public class TopicConsumerApplicationTests {
         @Override
         public void run() {
             try{
-                logsReceiver.start();
+              //  logsReceiver.start();
             }
             catch (Exception ex)
             {}

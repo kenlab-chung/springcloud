@@ -13,13 +13,13 @@ import org.springframework.stereotype.Component;
         bindings = @QueueBinding(
                 value = @Queue(value = "${mq.config.queue.logs}",autoDelete = "false"),
                 exchange = @Exchange(value = "${mq.config.exchange}",type = ExchangeTypes.TOPIC),
-                key="*.log.*"
+                key="user.log.*"
         )
 )
 public class LogsReceiver {
     @RabbitHandler
     public void process(String msg){
-        System.out.println("=======all=========");
+        System.out.println("=======user logs=========");
         System.out.println(msg);
     }
     public void start() throws InterruptedException {
